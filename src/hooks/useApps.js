@@ -8,11 +8,17 @@ const useApps = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios("../appsData.json").then((data) =>
-      setApps(data.data)
-        .catch((err) => setError(err))
-        .finally(() => setLoading(false))
-    );
+
+    axios.get("/appsData.json")
+      .then((res) => {
+        setApps(res.data);
+      })
+      .catch((err) => {
+        setError(err);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   }, []);
 
   return { apps, loading, error };
