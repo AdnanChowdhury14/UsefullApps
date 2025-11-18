@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/7NnkMFxk/notion-logo-11609370405b4cvyz4wit.png",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 2,
+    "description": "A customizable productivity workspace for notes, tasks, wikis, project planning, and knowledge management. Lets you build dashboards and workflows using databases and templates.",
+    "size": 89,
+    "reviews": 520000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 11000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 356000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/V0mrDXrz/todolist.png",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 3,
+    "description": "A clean task manager with labels, filters, priorities, and natural-language input. Helps manage daily tasks, goals, and long-term projects efficiently.",
+    "size": 31,
+    "reviews": 305000,
+    "ratingAvg": 4.5,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 167000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ycd0xfJV/logo-10.webp",
+    "title": "Forest",
+    "companyName": "SeekrTech",
+    "id": 4,
+    "description": "A focus timer that uses a tree-growing system to keep you away from distractions. Build deep focus habits through gamification.",
+    "size": 110,
+    "reviews": 430000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 17000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 269000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nqK7db9c/R.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 5,
+    "description": "A visual project management tool built around Kanban boards. Helps track workflows, plan tasks, and collaborate on large and small projects.",
+    "size": 75,
+    "reviews": 980000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 26000 },
+      { "name": "2 star", "count": 38000 },
+      { "name": "3 star", "count": 71000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 585000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cKxgKnT/png-transparent-ticktick-macos-bigsur-icon-thumbnail.png",
+    "title": "TickTick",
+    "companyName": "Appest",
+    "id": 6,
+    "description": "A productivity app combining tasks, habit tracking, Pomodoro timer, and calendar integration. Good for people who want both planning and habit tools.",
+    "size": 29,
+    "reviews": 230000,
+    "ratingAvg": 4.6,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 82000 },
+      { "name": "5 star", "count": 122000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7JtTVsyC/habiitca.webp",
+    "title": "Habitica",
+    "companyName": "HabitRPG",
+    "id": 7,
+    "description": "A gamified habit and task tracker where your real-life tasks level up an RPG character. Turns productivity into a game with rewards and quests.",
+    "size": 63,
+    "reviews": 98000,
+    "ratingAvg": 4.3,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 51300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2YKznhnL/rescuetime-social-preview.png",
+    "title": "RescueTime",
+    "companyName": "RescueTime Inc.",
+    "id": 8,
+    "description": "Automatic time tracker that monitors how you use your devices and gives detailed productivity analytics. Helps you understand and fix time-wasting habits.",
+    "size": 54,
+    "reviews": 145000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 51000 },
+      { "name": "5 star", "count": 69500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/F4c2CPyz/OIP.webp",
+    "title": "Google Keep",
+    "companyName": "Google",
+    "id": 9,
+    "description": "A lightweight note-taking app with reminders, lists, labels, and voice note support. Syncs instantly across all your devices.",
+    "size": 22,
+    "reviews": 1900000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 55000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 610000 },
+      { "name": "5 star", "count": 1035000 }
+    ]
+  }
+]

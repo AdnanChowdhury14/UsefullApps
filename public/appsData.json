@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://i.ibb.co.com/LDVq6YTy/focusmate.webp",
+    "title": "FocusMate",
+    "companyName": "Focus Labs",
+    "id": 1,
+    "description": "A virtual coworking platform that pairs you with real accountability partners in live focus sessions. Helps break procrastination, structure work time, and maintain consistent productivity.",
+    "size": 42,
+    "reviews": 128000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 27000 },
+      { "name": "5 star", "count": 83000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7NnkMFxk/notion-logo-11609370405b4cvyz4wit.png",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 2,
+    "description": "A customizable productivity workspace for notes, tasks, wikis, project planning, and knowledge management. Lets you build dashboards and workflows using databases and templates.",
+    "size": 89,
+    "reviews": 520000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 11000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 356000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/V0mrDXrz/todolist.png",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 3,
+    "description": "A clean task manager with labels, filters, priorities, and natural-language input. Helps manage daily tasks, goals, and long-term projects efficiently.",
+    "size": 31,
+    "reviews": 305000,
+    "ratingAvg": 4.5,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 167000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ycd0xfJV/logo-10.webp",
+    "title": "Forest",
+    "companyName": "SeekrTech",
+    "id": 4,
+    "description": "A focus timer that uses a tree-growing system to keep you away from distractions. Build deep focus habits through gamification.",
+    "size": 110,
+    "reviews": 430000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 17000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 269000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nqK7db9c/R.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 5,
+    "description": "A visual project management tool built around Kanban boards. Helps track workflows, plan tasks, and collaborate on large and small projects.",
+    "size": 75,
+    "reviews": 980000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 26000 },
+      { "name": "2 star", "count": 38000 },
+      { "name": "3 star", "count": 71000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 585000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cKxgKnT/png-transparent-ticktick-macos-bigsur-icon-thumbnail.png",
+    "title": "TickTick",
+    "companyName": "Appest",
+    "id": 6,
+    "description": "A productivity app combining tasks, habit tracking, Pomodoro timer, and calendar integration. Good for people who want both planning and habit tools.",
+    "size": 29,
+    "reviews": 230000,
+    "ratingAvg": 4.6,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 82000 },
+      { "name": "5 star", "count": 122000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7JtTVsyC/habiitca.webp",
+    "title": "Habitica",
+    "companyName": "HabitRPG",
+    "id": 7,
+    "description": "A gamified habit and task tracker where your real-life tasks level up an RPG character. Turns productivity into a game with rewards and quests.",
+    "size": 63,
+    "reviews": 98000,
+    "ratingAvg": 4.3,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 51300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2YKznhnL/rescuetime-social-preview.png",
+    "title": "RescueTime",
+    "companyName": "RescueTime Inc.",
+    "id": 8,
+    "description": "Automatic time tracker that monitors how you use your devices and gives detailed productivity analytics. Helps you understand and fix time-wasting habits.",
+    "size": 54,
+    "reviews": 145000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 51000 },
+      { "name": "5 star", "count": 69500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/F4c2CPyz/OIP.webp",
+    "title": "Google Keep",
+    "companyName": "Google",
+    "id": 9,
+    "description": "A lightweight note-taking app with reminders, lists, labels, and voice note support. Syncs instantly across all your devices.",
+    "size": 22,
+    "reviews": 1900000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 55000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 610000 },
+      { "name": "5 star", "count": 1035000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vCtcgj9v/evernote.png",
+    "title": "Evernote",
+    "companyName": "Bending Spoons",
+    "id": 10,
+    "description": "A powerful note-taking and document organization app with PDF scanning, attachments, and strong search features.",
+    "size": 86,
+    "reviews": 1200000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 110000 },
+      { "name": "2 star", "count": 135000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 420000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/p6P3QDPV/asana.png",
+    "title": "Asana",
+    "companyName": "Asana Inc.",
+    "id": 11,
+    "description": "A team productivity platform for planning, assigning, and tracking work. Includes workflow automation and collaboration tools.",
+    "size": 66,
+    "reviews": 450000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 46000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 234000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kcqk4v9T/png-transparent-microsoft-to-do-macos-bigsur-icon.png",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft",
+    "id": 12,
+    "description": "A simple task manager with smart lists, reminders, recurring tasks, and tight integration with Microsoft services.",
+    "size": 45,
+    "reviews": 860000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 31000 },
+      { "name": "3 star", "count": 62000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 537000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QjN9t0Hh/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 13,
+    "description": "A work messaging platform with channels, integrations, file sharing, and automation tools. Helps teams communicate more efficiently.",
+    "size": 120,
+    "reviews": 1600000,
+    "ratingAvg": 4.1,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 240000 },
+      { "name": "3 star", "count": 330000 },
+      { "name": "4 star", "count": 420000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DDqchC26/imgbin-any-do-android-android-i-Jx-VC8kyk-QPz-Va-Fx-L5-Sz-VZVTE.jpg",
+    "title": "Any.do",
+    "companyName": "Any.do",
+    "id": 14,
+    "description": "A clean task manager with reminders, calendars, lists, and daily planning features. Great for managing personal productivity.",
+    "size": 39,
+    "reviews": 670000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 65000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 351000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBdgbVHJ/5426188-middle.png",
+    "title": "Pomotodo",
+    "companyName": "Pomotodo Team",
+    "id": 15,
+    "description": "A hybrid productivity app combining Pomodoro timers with GTD-based task management. Helps track work sessions and build focus consistency.",
+    "size": 28,
+    "reviews": 58000,
+    "ratingAvg": 4.4,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 30400 }
+    ]
+  }
+]
