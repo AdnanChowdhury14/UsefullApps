@@ -4,10 +4,24 @@ import useApps from "../hooks/useApps";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading, error } = useApps();
+  const [isInstalled, setIsInstalled] = useState(() => {
+    const saved = JSON.parse(localStorage.getItem("installed")) || [];
+    return saved.some((p) => p.id === Number(id));
+  });
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading app.</p>;
@@ -28,24 +42,20 @@ const AppDetails = () => {
   } = app;
 
   const addToLocalStorage = () => {
-    const existingList = JSON.parse(localStorage.getItem('installed'))
-    let updatedList = []
-    if(existingList){
-      const isDuplicate = existingList.some(p => p.id === app.id)
-      if (isDuplicate) return alert("the app is already installed")
-       updatedList = [...existingList, app]
-    }else{
-      updatedList.push(app)
+    const existingList = JSON.parse(localStorage.getItem("installed"));
+    let updatedList = [];
+    if (existingList) {
+      const isDuplicate = existingList.some((p) => p.id === app.id);
+      if (isDuplicate) return alert("the app is already installed");
+      updatedList = [...existingList, app];
+    } else {
+      updatedList.push(app);
     }
     localStorage.setItem("installed", JSON.stringify(updatedList));
+    setIsInstalled(true);
+    toast.success("App installed successfully!");
   };
 
-  // const [isInstalled, setIsInstalled] = useState(false);
-
-  // const handleInstall = () => {
-  //   setIsInstalled(true);
-  //   toast.success("App installed successfully!");
-  // };
   return (
     <div className="max-w-5xl mx-auto p-6">
       <div className=" rounded-lg p-6 flex gap-6 items-center">
@@ -83,11 +93,30 @@ const AppDetails = () => {
 
           <button
             onClick={addToLocalStorage}
-            className="mt-5 px-6 py-2 bg-green-500 text-white rounded-md font-semibold"
+            disabled={isInstalled}
+            className={`mt-5 px-6 py-2 rounded-md font-semibold text-white 
+    ${isInstalled ? "bg-gray-400 cursor-not-allowed" : "bg-green-500"}`}
           >
-            Install Now ({size} MB)
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
+      </div>
+      <div className="mt-10">
+        <h2 className="text-2xl font-bold mb-4">Ratings</h2>
+
+        <ResponsiveContainer width="100%" height={300}>
+          <BarChart
+            data={ratings}
+            layout="vertical"
+            margin={{ top: 10, right: 30, left: 80, bottom: 10 }}
+          >
+            <XAxis type="number" />
+            <YAxis type="category" dataKey="name" />
+            <Tooltip />
+            <Bar dataKey="count" fill="#f97316" />{" "}
+            {/* orange-ish like screenshot */}
+          </BarChart>
+        </ResponsiveContainer>
       </div>
 
       <div className="mt-6  ">

@@ -5,6 +5,7 @@ import { Link, useLoaderData } from "react-router";
 import AppCard from "../Components/AppCard";
 import useApps from "../hooks/useApps";
 
+
 const Home = () => {
 //   const appsData = useLoaderData();
 const {apps, loading, error} = useApps();

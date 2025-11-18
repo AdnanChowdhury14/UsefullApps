@@ -61,7 +61,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink className="btn">Contribute</NavLink>
+        <NavLink 
+  to="https://github.com/AdnanChowdhury14" 
+  target="_blank" 
+  className="btn bg-gradient-to-r from-purple-600 to-indigo-500 text-white"
+>
+  Contribute
+</NavLink>
+
         </div>
       </div>
     </div>

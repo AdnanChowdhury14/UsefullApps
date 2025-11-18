@@ -1,6 +1,8 @@
 import React from "react";
 import bannerLogo from "../assets/hero.png";
 
+import apple from "../assets/OIP.webp";
+import googleIcon from "../assets/google.png";
 const Banner = () => {
   return (
     <div className="w-full bg-white pt-20 ">
@@ -22,12 +24,18 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex justify-center gap-4 mt-8">
+        <div className="flex gap-2">
+        <img src={googleIcon} alt="" width="30px"/>
         <a href="Https://play.google.com" target="_blank">
           <button className="btn btn-ghost">Google Play</button>
         </a>
+        </div>
+        <div className="flex gap-2">
+        <img src={apple} alt="" width="30px"/>
         <a href="Https://apps.apple.com" target="_blank">
         <button className="btn btn-ghost">App Store</button>
         </a>
+        </div>
         
       </div>
       <div className="flex justify-center mt-5">

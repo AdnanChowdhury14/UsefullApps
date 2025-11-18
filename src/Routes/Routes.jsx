@@ -6,6 +6,8 @@ import MainLayout from "../Layout/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import InstalledApps from "../Pages/InstalledApps";
 import AppDetails from "../Pages/AppDetails";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const router = createBrowserRouter([
   {
